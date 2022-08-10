@@ -1,7 +1,17 @@
+@import url("header.css");
+
 :root {
     --background-color: #222021;
     --backgorund-brown: #1E0C06;
     --white--text: #F5F5F5;
     --details: #FFDBBB;
     --main-text: 'Inter';
-}    
+}
+
+body {
+    background-color: var(--background-color);
+    background-image: url(../img/BG\ texture.png);
+    font-family: var(--main-text);
+    font-size: 16px;
+    font-weight: 400;
+}
